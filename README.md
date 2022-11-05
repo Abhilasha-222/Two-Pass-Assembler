@@ -13,7 +13,7 @@ For opCode with no operands like CLA, 8 “0”s will be added after opCode
 # Sample Input/Output:
 # Sample Input-
 [input.txt](https://github.com/Abhilasha-222/Two-Pass-Assembler/files/9943243/input.txt)
-Sample Output-
+# Sample Output-
 [outputMCode.txt](https://github.com/Abhilasha-222/Two-Pass-Assembler/files/9943250/outputMCode.txt)
 # Execution Process:
 Put assembly language code in a file named inputACode.txt in the same directory as the python file.
