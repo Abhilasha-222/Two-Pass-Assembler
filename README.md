@@ -21,6 +21,7 @@ Type 1: Instruction containing one argument.
 # Execution Process:
 1. Put assembly language code in a file named inputACode.txt in the same directory as the python file. 
 2. Run from terminal using :
+3. 
 ![file-name](https://user-images.githubusercontent.com/94596235/200107358-315adc4e-9435-4dd1-a1af-5ee4cdb3b302.png)
 3. Output machine code is stored in OutputMCode.txt
 # Errors Reported:
@@ -33,14 +34,14 @@ Type 1: Instruction containing one argument.
 7. If the Symbol is used but not defined
 
 # Code Flow:
-# PASS 1
+PASS 1
 1. The symbol table and opCode table are initialized as symtab and optab
 respectively.
 2. The Assembly program is processed line by line.
 3. The program reads instructions and extracts labels, opcodes, operands, 
 and comments.
 4. opCodes and labels are stored with their location.
-# PASS 2
+PASS 2
 1. variables are assigned addresses
 2. Instruction tables constructed in pass one are used to create the final 
 machine code as a .txt file
