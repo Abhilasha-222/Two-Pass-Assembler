@@ -12,16 +12,13 @@ Type 1: Instruction containing one argument.
 2. There should be no space between label and “:”.
 3. For opCode with no operands like CLA, 8 “0”s will be added after opCode
 
-# Sample Input/Output:
-
 # Sample Input-
 ![Input](https://user-images.githubusercontent.com/94596235/200107287-5f60ab93-6386-4088-be10-e0ebedd02dcc.png)
 # Sample Output-
 ![Output](https://user-images.githubusercontent.com/94596235/200107295-6ca81929-f6c0-4dfa-8e34-b9cd402c7d41.png)
 # Execution Process:
 1. Put assembly language code in a file named inputACode.txt in the same directory as the python file. 
-2. Run from terminal using :
-3. 
+2. Run from terminal using : 
 ![file-name](https://user-images.githubusercontent.com/94596235/200107358-315adc4e-9435-4dd1-a1af-5ee4cdb3b302.png)
 3. Output machine code is stored in OutputMCode.txt
 # Errors Reported:
@@ -41,6 +38,7 @@ respectively.
 3. The program reads instructions and extracts labels, opcodes, operands, 
 and comments.
 4. opCodes and labels are stored with their location.
+
 PASS 2
 1. variables are assigned addresses
 2. Instruction tables constructed in pass one are used to create the final 
