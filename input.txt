@@ -1,0 +1,30 @@
+	CLA
+	LAC	A
+	SUB	B
+	BRN	L1
+	DSP	A
+	CLA
+	BRZ	L2
+L1: DSP
+	CLA
+	BRZ	L2
+L2: STP
+	ADD	X
+L	ADD	Y
+	BRN	L
+	STP
+
+
+
+
+	CLA
+	ADD	X
+	X
+
+
+
+
+
+
+
+
