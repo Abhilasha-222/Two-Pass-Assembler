@@ -8,24 +8,21 @@ Type 0: Instructions containing no argument.
 
 Type 1: Instruction containing one argument.
 # Syntax Used and Assumptions:
-Syntax for the comment is, # for single line comments.
-
-There should be no space between label and “:”.
-
-For opCode with no operands like CLA, 8 “0”s will be added after opCode
+1. Syntax for the comment is, # for single line comments.
+2. There should be no space between label and “:”.
+3. For opCode with no operands like CLA, 8 “0”s will be added after opCode
 
 # Sample Input/Output:
+
 # Sample Input-
 ![Input](https://user-images.githubusercontent.com/94596235/200107287-5f60ab93-6386-4088-be10-e0ebedd02dcc.png)
 # Sample Output-
 ![Output](https://user-images.githubusercontent.com/94596235/200107295-6ca81929-f6c0-4dfa-8e34-b9cd402c7d41.png)
 # Execution Process:
-Put assembly language code in a file named inputACode.txt in the same directory as the python file.
-
-Run from terminal using :
+1. Put assembly language code in a file named inputACode.txt in the same directory as the python file. 
+2. Run from terminal using :
 ![file-name](https://user-images.githubusercontent.com/94596235/200107358-315adc4e-9435-4dd1-a1af-5ee4cdb3b302.png)
-
-Output machine code is stored in OutputMCode.txt
+3. Output machine code is stored in OutputMCode.txt
 # Errors Reported:
 1. If the starting of the symbol is a number.
 2. If Invalid characters detected in a symbol
